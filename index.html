@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Samia Regrai</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi, I'm Samia Regrai, a passionate web developer and data enthusiast.</p>
+        <!-- Adding a video -->
+        <video controls>
+            <source src="src/video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a web developer with experience in HTML, CSS, JavaScript, and React. I also have a background in data analysis and machine learning.</p>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work">
+        <h2>Work</h2>
+        <ul>
+            <li><a href="project1.html">Web Application for CV Parsing</a></li>
+            <li><a href="project2.html">Stock Management System</a></li>
+            <li><a href="project3.html">Facial Detection Application</a></li>
+        </ul>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <table>
+            <tr>
+                <th>Year</th>
+                <th>Qualification</th>
+                <th>Institution</th>
+            </tr>
+            <tr>
+                <td>2024</td>
+                <td>Professional License in Big Data</td>
+                <td>EST Fkih Ben Salah</td>
+            </tr>
+            <tr>
+                <td>2023</td>
+                <td>BTS in IT Systems & Networks</td>
+                <td>Al Idrissi Technical School</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" required></textarea><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Samia Regrai. All Rights Reserved.</p>
+        <!-- Adding audio -->
+        <audio controls>
+            <source src="src/audio.mpeg" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </footer>
+</body>
+</html>
